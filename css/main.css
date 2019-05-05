@@ -1,0 +1,190 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+}
+/*Общие классы для очищения потоков обтекания*/
+.clear:before, .clear:after {
+	content: "";
+	display: table;
+}
+.clear:after {
+	clear: both;
+}
+/*----------------------------------------
+			HEADER
+---------------------------------------- */
+.header_bg {
+	height: 888px;
+	background-image: url("../img/bg.jpg");
+    background-size: cover;
+    /*Выравниваем картинку по центру контейнера*/
+    background-position: center;
+    position: relative;
+    padding-top: 29px;
+}
+.logo {
+	margin-bottom: 70px;
+}
+.container {
+	width: 960px;
+	/*Выравниваем блок по центру*/
+	margin-left: auto;
+	margin-right: auto;
+}
+/*----------------------------------------
+			NAVIGATION
+---------------------------------------- */
+.navigation {
+	margin-bottom: 77px;
+}
+.navigation ul {
+	list-style-type: none;
+	/*Убираем схлопывание*/
+	margin: 0;
+	padding: 0;
+}
+.navigation ul li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	margin-right: 145px;	
+}
+.navigation ul li:last-child {
+	margin-right: 0;
+}
+.navigation ul li a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+.navigation ul li a:hover {
+	text-decoration: underline;
+}
+.header_heading {
+	width: 420px;
+	color: #FFF;
+}
+.header_heading h1 {
+	font-size: 52px;
+	font-weight: 400;
+  	text-shadow: 0px 1px 1px rgba(46, 107, 130, 0.4);
+  	margin-bottom: 27px;
+}
+.header_heading p {
+	font-size: 14px;
+	text-shadow: 0px 1px 1px rgba(53, 125, 152, 0.004);
+	line-height: 1.786;
+	width: 380px;
+}
+/*----------------------------------------
+			MAIN CONTENT
+---------------------------------------- */
+.main_content_padding {
+	padding-top: 110px;
+	padding-bottom: 85px;
+}
+.column-left {
+	float: left;
+	width: 310px;
+	/*Разделительная линия у колонок*/
+	border-right: 1px solid #eaeaea;
+	padding-right: 40px;
+	padding-bottom: 135px;
+}
+.column-left p {
+	margin-top: 0;
+	font-size: 20px;
+	color: rgb(254, 153, 42);
+	font-style: italic;
+	line-height: 1.4;
+}
+
+.column-right {
+	float: right;
+	width: 590px;
+}
+.column-right h2 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: 400;
+	color: rgb(254, 153, 42);
+	line-height: 1;
+}
+.column-right p {
+	font-size: 14px;
+	color: rgb(115, 124, 133);
+	line-height: 28px;
+}
+.column-right p a {
+	color: rgb(115, 124, 133);
+	text-decoration: underline;
+}
+/*----------------------------------------
+			FOOTER
+---------------------------------------- */
+.footer {
+	padding-top: 45px;
+	padding-bottom: 180px;
+	background-color: #e66e6b;
+	/*Заливка в виде картинки*/
+	background-image: url("../img/bg_footer.jpg");
+	/*Фон повторяется*/
+	background-repeat: repeat;
+	color: #FFF;
+	font-size: 14px;
+}
+.footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.footer h4 {
+	margin: 0;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.column_contacts {
+	float: left;
+	width: 320px;
+}
+.column_menu {
+	float: left;
+	margin-right: 63px;
+}
+.column_menu:last-child {
+	margin-right: 0;
+}
+.column_contacts p {
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+.column_contacts ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+.column_contacts ul li {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+.column_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.column_menu ul li {
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
